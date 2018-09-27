@@ -1,0 +1,321 @@
+
+.article {
+  @extend .border;
+  @extend .pt-3;
+  @extend .pr-3;
+  @extend .pl-3;
+  @extend .bg-white;
+}
+
+.body-background {
+  background-size: cover;
+  background-attachment: fixed;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1000;
+  opacity: 0.6;
+}
+
+.post-image {
+  height: 230px;
+
+  img {
+    object-fit: cover;
+    object-position: center top;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.social-buttons {
+  display: flex;
+  align-items: center;
+  align-content: center;
+
+  > div {
+    align-self: center;
+    padding-left: 10px;
+    &:first-child {
+      padding-left: 0px;
+    }
+  }
+
+  .social-buttons__twitter {
+    height: 20px;
+  }
+
+  .social_buttons__reddit {
+    height: 20px;
+    > * {
+      margin-top: -4px;
+      display: block;
+    }
+  }
+}
+
+//Portfolio
+.wrapper {
+    background:$theme-color;
+    margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+    @include box-shadow(0px 2px 4px rgba(0,0,0,0.1));
+}
+
+.sidebar-wrapper {
+    background: $theme-color;
+    position: absolute;
+    left: 0;
+    width: 240px;
+    height: 100%;
+    min-height: 800px;
+    color: #fff;
+    a {
+        color: #fff;
+    }
+    .profile-container {
+        padding: 30px;
+        //background: darken($theme-color, 10%);
+        background: rgba(0, 0, 0, 0.2);
+        text-align: center;
+        color: #fff;
+    }
+    .name {
+        font-size: 26px;
+        font-weight: 900;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .tagline {
+        color: rgba(256, 256, 256, 0.6);
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .profile {
+        margin-bottom: 15px;
+    }
+    .contact-list {
+        .svg-inline--fa  {
+            margin-right: 5px;
+            font-size: 18px;
+            vertical-align: middle;
+        }
+        li {
+            margin-bottom: 15px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        .email {
+            .svg-inline--fa  {
+                font-size: 14px;
+            }
+        }
+    }
+    .container-block {
+        padding: 30px;
+        .fa {
+          margin-right: 6px;
+        }
+    }
+    .container-block-title {
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .degree {
+        font-size: 18px;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    .education-container {
+        .item {
+            margin-bottom: 15px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        .meta {
+            color: rgba(256, 256, 256, 0.6);
+            font-weight: 500;
+            margin-bottom: 0px;
+            margin-top: 0;
+            font-size: 14px;
+        }
+        .time {
+            color: rgba(256, 256, 256, 0.6);
+            font-weight: 500;
+            margin-bottom: 0px;
+        }
+    }
+    .languages-container {
+        .lang-desc {
+            color: rgba(256, 256, 256, 0.6);
+        }
+    }
+    
+    .languages-list {
+        margin-bottom: 0;
+        li {
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    
+    .interests-list {
+        margin-bottom: 0;
+        li {
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.main-wrapper {
+    background: #fff;
+    padding: 60px;
+    padding-left: 300px;
+    .section-title {
+        text-transform: uppercase;
+        font-size: 20px;
+        color: darken($theme-color, 15%);
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 20px;
+        .icon-holder  {
+            width: 30px;
+            height: 30px;
+            margin-right: 8px;
+            display: inline-block;
+            color: #fff;
+            @include border-radius(50%);
+            background: darken($theme-color, 15%);
+            text-align: center;
+            font-size: 16px;
+            position: relative;
+            top: -8px;
+            .fa {
+              font-size: 14px;
+              margin-top: 6px;
+            }
+        }
+
+    }
+    .section {
+        margin-bottom: 60px;
+    }
+    
+    .experiences-section {
+        .item {
+            margin-bottom: 30px;
+        }
+    }
+    .upper-row {
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 2px;
+    }
+    .job-title {
+        color: $text-color;
+        font-size: 18px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .time {
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: $text-grey;
+    }
+    .company {
+        margin-bottom: 10px;
+        color: $text-grey;
+    }
+    
+    .project-title {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    .projects-section {
+        .intro {
+            margin-bottom: 30px;
+        }
+        .item {
+            margin-bottom: 15px;
+        }
+    }
+    
+}
+
+
+.skillset {
+    .item {
+        margin-bottom: 15px;
+        overflow: hidden;
+    }
+    .level-title {
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 12px;
+    }
+    
+    
+    .level-bar {
+        height: 12px;
+        background: $smoky-white;
+        @include border-radius(2px);
+    }
+    
+    .theme-progress-bar {
+      background: lighten($theme-color, 10%);
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+    
+    .sidebar-wrapper {
+        position: static;
+        width: inherit;
+    }
+    
+    .main-wrapper {
+        padding: 30px;
+    }
+    
+    .main-wrapper .time {
+        position: static;
+        display: block;
+        margin-top: 5px;
+    }
+    
+    .main-wrapper .upper-row {
+        margin-bottom: 0;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    
+    .skillset .level-title {
+        display: inline-block;
+        float: left;
+        width: 30%;
+        margin-bottom: 0;
+    }
+    
+    
+}
