@@ -10,20 +10,21 @@
 
 1. Install a full [Ruby development environment](https://jekyllrb.com/docs/installation/)
 2. Install Jekyll and bundler gems
-``sh
-gem install jekyll bundler
-``
+```sh
+$ gem install jekyll bundler
+```
 3. Create a new Jekyll site at ./myblog
-``sh
-jekyll new myblog
-``
+```sh
+$  jekyll new myblog
+```
 4. Change into your new directory
-``sh
-cd myblog
-``
+```sh
+$  cd myblog
+```
 5. Build the site and make it available on a local server
-``
-bundle exec jekyll serve
-``
+```sh
+$  bundle exec jekyll serve
+```
 6. Now browse to http://localhost:4000
+
 Ctrl+C to exit
