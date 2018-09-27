@@ -147,7 +147,7 @@
             font-weight: 500;
             margin-bottom: 0px;
             margin-top: 0;
-            font-size: 14px;
+            font-size: 18px;
         }
         .time {
             color: rgba(256, 256, 256, 0.6);
@@ -225,6 +225,7 @@
         position: relative;
         overflow: hidden;
         margin-bottom: 2px;
+        padding-bottom: 2px;
     }
     .job-title {
         color: $text-color;
