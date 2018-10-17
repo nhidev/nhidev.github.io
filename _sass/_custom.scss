@@ -376,7 +376,11 @@ body.cv{
 }
 .cv-header{
     display:-ms-flexbox;
-    display:flex
+    display:flex;
+    position: relative;
+}
+.cv-header-lead {
+    margin-top: 10px;
 }
 @media (false) and (max-width:1023px){
     .cv-header{
@@ -426,7 +430,10 @@ body.cv{
     overflow:hidden;
     font-size:14px;
     color:#777;
-    white-space:nowrap
+    white-space:nowrap;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 @media (false) and (max-width:1023px){
     .cv-header-meta{
