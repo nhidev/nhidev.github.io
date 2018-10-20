@@ -3,6 +3,9 @@ title: JavaScript - Fundamentals for Absolute Beginners 2018
 image: /assets/img/maxresdefault.jpg
 ---
 
+Begin with the very basics of the JavaScript language. It's note that i made from following the tutorial of Bob Tabor. 
+[Code Once](https://www.youtube.com/watch?v=YMvzfQSI6pQ)
+
 01 | Introduction
 02 | Setting Up the Development Environment
 03 | Basic JavaScript Syntax
