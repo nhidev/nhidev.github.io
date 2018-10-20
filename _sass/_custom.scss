@@ -362,6 +362,16 @@ body.cv{
     background-color:#fff;
     box-shadow:2px 2px 1px #606060
 }
+.cv-page-inner {
+    position: relative;
+    .download {
+        position: absolute;
+        top: -60px;
+        right: 0;
+        border: 2px solid #bb1e1e;
+        padding: 5px 10px;
+    }
+}
 @media print{
     .cv-page{
         padding:40px 80px;
