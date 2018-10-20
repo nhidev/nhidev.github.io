@@ -13,238 +13,39 @@ layout: default
   <section>
     {{ content }}
   </section>
-    <div class="wrapper">
-      <div class="sidebar-wrapper">
-          <div class="profile-container">
-              <img class="profile" src="assets/img/avatar.jpg" alt="" />
-              <h1 class="name">Thai Thi Yen Nhi</h1>
-              <h3 class="tagline">Front-end Developer</h3>
-          </div><!--//profile-container-->
-          
-          <div class="contact-container container-block">
-              <ul class="list-unstyled contact-list">
-                <li class="phone"><i class="fa fa-birthday-cake"></i>19/05/1988</li>
-                  <li class="email"><i class="fa fa-envelope"></i><a href="mailto: nhithai88@email.com">nhithai88@gmail.com</a></li>
-                  <li class="phone"><i class="fa fa-phone"></i><a href="tel:0974833783">0974 833 783</a></li>
-                  
-             
-              </ul>
-              <ul class="list-inline"> 
-                 <li class="list-inline-item"><a href="https://www.linkedin.com/in/nhi-thai-b69b7535" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                
-                 <li class="list-inline-item"><a href="https://github.com/nhidev"><i class="fa fa-github" target="_blank"></i></a></li>
-                 <li class="list-inline-item"><a href="resume.pdf" download><i class="fa fa-print"></i></a></li>
-              </ul>
-             
-          </div><!--//contact-container-->
-          <div class="education-container container-block">
-              <h2 class="container-block-title">Education</h2>
-              <div class="item">
-                  <h4 class="degree">Bachelor of Science</h4>
-                  <h5 class="meta">Hutech University</h5>
-                  <div class="time">2012 - 2013</div>
-              </div><!--//item-->
-              <div class="item">
-                  <h4 class="degree">Associate of Science </h4>
-                  <h5 class="meta">Hoa Sen University</h5>
-                  <div class="time">2006 - 2009</div>
-              </div><!--//item-->
-          </div><!--//education-container-->
-          
-          <div class="languages-container container-block">
-              <h2 class="container-block-title">Languages</h2>
-              <ul class="list-unstyled interests-list">
-                  <li>English <span class="lang-desc">(intermediate)</span></li>
-              </ul>
-          </div><!--//interests-->
-          
-          <div class="interests-container container-block">
-              <h2 class="container-block-title">Interests</h2>
-              <ul class="list-unstyled interests-list">
-                  <li>Languages and foreign cultures</li>
-                  <li>Sports, outdoor actives</li>
-              </ul>
-               
-          </div><!--//interests-->
-          
-      </div><!--//sidebar-wrapper-->
-      
-      <div class="main-wrapper">
-          
-          <section class="section summary-section">
-              <h2 class="section-title"><span class="icon-holder"><i class="fa fa-user"></i></span>Career Objective</h2>
-              <div class="summary">
-                  <p>With a strong technical skill-set, attention to detail, and 4+ years of experience, I want to work as a front-end web developer where I could create digital magic and elevate user experience to the next level.
-</p>
-              </div><!--//summary-->
-          </section><!--//section-->
-          
-          <section class="section experiences-section">
-              <h2 class="section-title"><span class="icon-holder"><i class="fa fa-briefcase"></i></span>Experiences</h2>
-              
-              <div class="item">
-                  <div class="meta">
-                      <div class="upper-row">
-                          <h3 class="job-title">Front-end Developer</h3>
-                          <div class="time">09/2017 - 06/2018</div>
-                      </div><!--//upper-row-->
-                      <div class="company">RedWeb, Viet Nam</div>
-                  </div><!--//meta-->
-                  <div class="details">
-                     <ul class="list-inline"> 
-                      <li>Creating, modifying websites for Joomla open source CMS and our ecommerce platform.</li>
-                      <li>Upgrade client sites (ecommerce platform, Joomla CMS).</li>
-                      <li>Fix front end related bugs that were identified in QA, beta and production environments.</li>
-                      <li>Attend wire frame review, design and html code walkthrough meetings.</li>
-                      <li>Worked in Agile environment, attending daily scrum meetings.</li>
-                      </ul>
-                  </div><!--//details-->
-              </div><!--//item-->
-              
-              <div class="item">
-                  <div class="meta">
-                      <div class="upper-row">
-                          <h3 class="job-title">Front-end Developer</h3>
-                          <div class="time">08/2016 - 06/2017</div>
-                      </div><!--//upper-row-->
-                      <div class="company">1PAC, Viet Nam</div>
-                  </div><!--//meta-->
-                  <div class="details">
-                    <ul class="list-inline"> 
-                      <li>Develop HTML/CSS templates from Photoshop visual design and wireframes.</li>
-                      <li> Refactoring code and delivering products with high quality, write code that runs cross browsers.</li>
-                      <li>Research trending technologies and apply it to real production.</li>
-                    </ul>
-                    </div><!--//details-->
-              </div><!--//item-->
-              
-              <div class="item">
-                  <div class="meta">
-                      <div class="upper-row">
-                          <h3 class="job-title">Web Developer</h3>
-                          <div class="time">05/2014 - 07/2016</div>
-                      </div><!--//upper-row-->
-                      <div class="company">Canon Le Bao Minh,  Viet Nam</div>
-                  </div><!--//meta-->
-                  <div class="details">
-                    <ul class="list-inline"> 
-                      <li>Creating, modifying websites for WordPress open source CMS solutions with PHP programming language.</li>
-                      <li>Used jquery to build accordion style content, drag and drop functionality, calendar, popup and modal windows</li>
-                      <li>Cross-browser compatible by writing W3C validated Semantic XHTML.</li>
-                      <li>Responsible for solving page layout issues and creating an effective CSS fluid layout.</li>
-                      <li>Monitored the web analysis reports to view the performance of the company websites.</li>
-                  </ul>
 
-                  </div><!--//details-->
-              </div><!--//item-->
+  {%- if site.posts.size > 0 -%}
+  <ul class="list-unstyled">
+    {%- for post in site.posts -%}
+    <li class="article mb-4">
+      <p class="h5 mb-2">
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </p>
+      {% if post.image %}
+      <div class="post-image mb-2 mt-3">
+        <a href="{{ post.url | relative_url }}">
+          <img src="{{ post.image | relative_url }}">
+        </a>
+      </div>
+      {% endif %}
+      <p class="text-muted d-none">
+        {%- assign date_format = "%b %-d, %Y" -%}
+        {{ post.date | date: date_format }}
+      </p>
+      {%- if site.show_excerpts -%}
+        {{ post.excerpt }}
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
 
-               <div class="item">
-                  <div class="meta">
-                      <div class="upper-row">
-                          <h3 class="job-title">Data Agent</h3>
-                          <div class="time">06/2012 - 12/2013</div>
-                      </div><!--//upper-row-->
-                      <div class="company">Skunkworks, Viet Nam</div>
-                  </div><!--//meta-->
-                  <div class="details">
-                    <ul class="list-inline"> 
-                      <li>Collect, verify data from multiple sources like Yelp, Foursquare, Opentable, Google+ ... to build a social planning application "Klamr".</li>
-                    </ul>
-                      </div><!--//details-->
-              </div><!--//item-->
-
-               <div class="item">
-                  <div class="meta">
-                      <div class="upper-row">
-                          <h3 class="job-title">Data Agent</h3>
-                          <div class="time">09/2010 - 08/2011</div>
-                      </div><!--//upper-row-->
-                      <div class="company">GHP Far East (Swiss Post),  Viet Nam</div>
-                  </div><!--//meta-->
-                  <div class="details">
-                      <ul class="list-inline"> 
-                      <li>Insert customer and account data by inputting text based and numerical information from source documents. </li>
-                      <li>Compile, verify accuracy and sort information according to priorities to prepare source data for computer entry.</li> 
-                      <li>Review data for deficiencies or errors, correct any incompatibilities if possible and check output.</li>
-                    </ul>
-                  </div><!--//details-->
-              </div><!--//item-->
-              
-          </section><!--//section-->
-          
-    
-          <section class="skills-section section">
-              <h2 class="section-title"><span class="icon-holder"><i class="fa fa-rocket"></i></span>Skills &amp; Proficiency</h2>
-             
-
-<ul class="list-inline">
-  <li class="list-inline-item"><a rel="nofollow" target="_blank"> HTML</a></li>
-  <li class="list-inline-item"><a rel="nofollow" target="_blank"> CSS</a></li>
-  <li class="list-inline-item"><a rel="nofollow" target="_blank"> SASS</a></li>
-  <li class="list-inline-item"><a rel="nofollow" target="_blank">Javascript</a></li>
-  <li class="list-inline-item"><a rel="nofollow" target="_blank"> Bootstrap</a></li>
-  <li class="list-inline-item"><a rel="nofollow" target="_blank"> jQuery</a></li>
-  <li class="list-inline-item"><a rel="nofollow" target="_blank">Joomla</a></li>
-  <li class="list-inline-item"><a rel="nofollow" target="_blank">Wordpress</a></li>
-  <li class="list-inline-item"><a rel="nofollow" target="_blank">Photoshop</a></li>
-  <li class="list-inline-item"><a rel="nofollow" target="_blank">Grunt</a></li>
-  <li class="list-inline-item"><a rel="nofollow" target="_blank">Github</a></li>
-    <li class="list-inline-item"><a rel="nofollow" target="_blank">Jira</a></li>
-</ul>
-              <div class="skillset d-none">        
-                
-                  <div class="item">
-                      <h3 class="level-title">HTML5 &amp; CSS</h3>
-                      <div class="progress level-bar">
-                <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>                                
-                  </div><!--//item-->
-
-                  <div class="item">
-                      <h3 class="level-title">Bootstrap</h3>
-                      <div class="progress level-bar">
-                          <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>                                 
-                  </div><!--//item-->
-                  
-                  <div class="item">
-                      <h3 class="level-title">Javascript &amp; jQuery</h3>
-                      <div class="progress level-bar">
-                          <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>                              
-                  </div><!--//item-->
-                   <div class="item">
-                      <h3 class="level-title">React</h3>
-                      <div class="progress level-bar">
-                          <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>                              
-                  </div><!--//item-->
-                  
-                   <div class="item">
-                      <h3 class="level-title">Joomla</h3>
-                      <div class="progress level-bar">
-                              <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>                                
-                  </div><!--//item-->
-                   <div class="item">
-                      <h3 class="level-title">Wordpress</h3>
-                      <div class="progress level-bar">
-                              <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>                                
-                  </div><!--//item-->
-                  
-                  <div class="item">
-                      <h3 class="level-title">Sketch &amp; Photoshop</h3>
-                      <div class="progress level-bar">
-              <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>                                 
-                  </div><!--//item-->
-                  
-              </div>  
-          </section><!--//skills-section-->
-          
-      </div><!--//main-body-->
-  </div>  
- 
+  <div class="article">
+    <p>
+      <a href="{{ "/feed.xml" | relative_url }}">Subscribe via RSS</a>
+    </p>
+  </div>
+  {%- endif -%}
 
 </div>

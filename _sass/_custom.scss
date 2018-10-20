@@ -1,9 +1,10 @@
 
 .article {
   @extend .border;
-  @extend .pt-3;
-  @extend .pr-3;
-  @extend .pl-3;
+  @extend .pt-4;
+  @extend .pr-4;
+  @extend .pb-4;
+  @extend .pl-4;
   @extend .bg-white;
 }
 
@@ -20,10 +21,10 @@
 }
 
 .post-image {
-  height: 230px;
+  height: 300px;
 
   img {
-    object-fit: cover;
+    object-fit: contain;
     object-position: center top;
     width: 100%;
     height: 100%;
