@@ -17,13 +17,12 @@ image: /assets/img/pluralsight.jpg
 </details>
 <details>
 	<summary> Which of these is equivalent to the following for loop?</summary>
-
-```python
+  <pre><code>
 	do {
 	  i++;
 	  ...
 	} while ((i < x)
-```
+</code></pre>
 </details>
 <details>
 	<summary> Which keyword would be best to hold a userId that is loaded from the server and never changes?</summary>
@@ -40,15 +39,14 @@ isNaN()
 <details>
 <summary> How can you instantiate an object with a custom type Person using the new keyword?</summary>
 	By defining the object with a constructor function, then instantiating the object using that function and the new keyword:
-
-```python
+<pre><code>
 	function Person(name, age, etc){
 	  this.name = name;
 	  this.age = age;
 	  this.etc = etc;
 	}
 	let newPerson = new Person("Bob", 35, "etc");
-```
+</code></pre>
 </details>
 <details>
 <summary> Generally, where is the best place to put script tags?</summary>
@@ -60,16 +58,14 @@ isNaN()
 </details>
 <details>
 <summary> After the following code is executed, what is printed to the console?</summary>
-
-```python
+<pre><code>
 	let iterable = [10];
 	for (let value of iterable) {
 	  console.log(value);
 	}
 
 	//10
-
-```
+</code></pre>
 </details>
 <details>
 <summary> Which answer correctly shows a function being invoked with the value of another function as an argument?</summary>
