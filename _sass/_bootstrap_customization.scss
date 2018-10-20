@@ -41,7 +41,13 @@ $web-font-path: "https://fonts.googleapis.com/css?family=News+Cycle:400,700" !de
   font-size: 20px;
   font-weight: $headings-font-weight;
 }
-
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+ .nav-item.last {
+    border: 2px solid $black;
+  }
 // Buttons =====================================================================
 
 .btn {
