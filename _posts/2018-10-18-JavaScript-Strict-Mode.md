@@ -1,6 +1,6 @@
 ---
 title: JavaScript - Strict Mode ‘use strict’
-image: /assets/img/strict-mode.png
+image: /assets/img/strict-mode.jpg
 categories: [Tech, JavaScript]
 ---
 
