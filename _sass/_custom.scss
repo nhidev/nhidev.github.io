@@ -58,6 +58,39 @@
   }
 }
 
+//Projects
+.page-section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.project-item {
+  .project-item-img {}
+  .project-item-description {
+    h4, div {
+        margin-bottom: 1rem;
+    }
+  }
+  @media (min-width: 992px) {
+    .project-item-title {
+      position: relative;
+      z-index: 1;
+      margin-bottom: -3rem;
+    }
+    .project-item-img {
+      position: relative;
+      z-index: 0;
+      max-width: 60vw;
+    }
+    .project-item-description {
+      position: relative;
+      z-index: 1;
+      margin-top: -3rem;
+      max-width: 50vw;
+    }
+  }
+}
+
+
 //Portfolio
 .wrapper {
     background:$theme-color;
@@ -264,7 +297,6 @@
     
 }
 
-
 .skillset {
     .item {
         margin-bottom: 15px;
@@ -342,6 +374,8 @@
     
     
 }
+
+
 //New
 body.cv{
     font-family:Roboto,Helvetica,sans-serif;
@@ -618,35 +652,4 @@ body.cv{
 }
 .cv-section.edu .cv-timeline-body {
     padding-left:21.5%;
-}
-//Projects
-.page-section {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-}
-.project-item {
-  .project-item-img {}
-  .project-item-description {
-    h4, div {
-        margin-bottom: 1rem;
-    }
-  }
-  @media (min-width: 992px) {
-    .project-item-title {
-      position: relative;
-      z-index: 1;
-      margin-bottom: -3rem;
-    }
-    .project-item-img {
-      position: relative;
-      z-index: 0;
-      max-width: 60vw;
-    }
-    .project-item-description {
-      position: relative;
-      z-index: 1;
-      margin-top: -3rem;
-      max-width: 50vw;
-    }
-  }
 }

@@ -1,6 +1,7 @@
 ---
 title: JavaScript - Pluralsight questions
 image: /assets/img/pluralsight.jpg
+categories: [Tech, JavaScript]
 ---
 
 <details> 

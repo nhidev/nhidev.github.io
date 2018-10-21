@@ -15,8 +15,9 @@ layout: default
   </section>
 
   {%- if site.posts.size > 0 -%}
+  {% for category in site.categories %}
   <ul class="list-unstyled">
-    {%- for post in site.posts -%}
+    {% for post in category[1] %}
     <li class="article mb-4">
       <p class="h5 mb-2">
         <a href="{{ post.url | relative_url }}">
@@ -40,7 +41,7 @@ layout: default
     </li>
     {%- endfor -%}
   </ul>
-
+   {%- endfor -%}
   {%- endif -%}
 
 </div>

@@ -14,9 +14,9 @@ layout: default
     {{ content }}
   </section>
 
-  {%- if site.posts.size > 0 -%}
+  {% for tag in site.tags %}
   <ul class="list-unstyled">
-    {%- for post in site.posts -%}
+    {%- for post in tag[1] -%}
     <li class="article mb-4">
       <p class="h5 mb-2">
         <a href="{{ post.url | relative_url }}">
@@ -40,12 +40,12 @@ layout: default
     </li>
     {%- endfor -%}
   </ul>
-
+ {%- endfor -%}
+ 
   <div class="article">
     <p>
       <a href="{{ "/feed.xml" | relative_url }}">Subscribe via RSS</a>
     </p>
   </div>
-  {%- endif -%}
-
+ 
 </div>
