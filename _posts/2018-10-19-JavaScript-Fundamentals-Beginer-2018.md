@@ -18,14 +18,14 @@ Begin with the very basics of the JavaScript language.
 11 | Basics of Scope
 12 | Object Literals
 13 | Module Pattern and Revealing Module
-14 | Closures
-15 | Keyword"this"
-16 | Destructuring
+14 | Closures *****
+15 | Keyword"this" *****
+16 | Destructuring *****
 17 | String Template Literals	
 18 | Regular Expressions
-19 | Built-In Natives
-20 | Constructor Function Calls with the new Keyword
-21 | Objects and the Prototype Chain
+19 | Built-In Natives *****
+20 | Constructor Function Calls with the new Keyword *****
+21 | Objects and the Prototype Chain *****
 22 | JavaScript Classes
 23 | Arrow Functions
 24 | Truthy and Falsy Values

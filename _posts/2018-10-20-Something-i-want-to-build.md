@@ -1,7 +1,6 @@
 ---
 title: Something i would like to build
 image: /assets/img/message-in-a-bottle.jpg
-tags: [featured]
 ---
 ```
 There’s something undeniably romantic about tossing a message into the ocean and 
