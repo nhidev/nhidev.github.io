@@ -28,13 +28,15 @@ HOW WIL IT LOOK LIKE?
 - Keep the bottle (it like you keep the bottle) (just upgrade user)
 ```
 
-Plan | Basic | Upgrade |
-| ------ | ------ | ------ |
-|Drop a bottle | 10 times | 50 times |
-|Attach file | none | allow |
-|Tag your bottle| none | allow |
-|Pick a bottle | 10 times | 50 times |
-|Reply by message | none | allow |
-|Reply by emotion icon | allow | allow  |
-|Keep a message | none | allow |
-|Change location/See location | none | allow |
+<pre><code>| Plan    | Basic            | Upgrade                             |
+|-----------|---------------------|------------------------------|
+| Drop a bottle                   | 10 times     | 50 times      |
+| Attach file                     | none         | allow         |
+| Tag your bottle                 | none         | allow         |
+| Pick a bottle                   | 10 times     | 50 times      |
+| Reply by message                | none         | allow         |
+| Reply by emotion icon           | allow        | allow         |
+| Keep a message                  | none         | allow         |
+| Change location/See location    | none         | allow         |
+
+</code></pre>
