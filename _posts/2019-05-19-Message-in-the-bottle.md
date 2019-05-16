@@ -41,7 +41,7 @@ actually you can write it in your bottle).
 | Pick a bottle                   | 10 times     | 50 times      |
 | Reply by message                | none         | allow         |
 | Reply by emotion icon           | allow        | allow         |
-| Keep a bottle                  | none         | allow         |
+| Keep a bottle                   | none         | allow         |
 | Change location/See location    | none         | allow         |
 
 </code></pre>
