@@ -29,7 +29,7 @@ actually you can write it in your bottle).
 - Reply by message
 - React by icon :fire: :heart: :smile: :cry:  
 - Leave it when you can't say any good word better just let it goes back to the sea.  
-- Keep the bottle (it like you keep the bottle) (just upgrade user)
+- Keep the bottle 
 ```
 
 <pre><code>
@@ -41,7 +41,7 @@ actually you can write it in your bottle).
 | Pick a bottle                   | 10 times     | 50 times      |
 | Reply by message                | none         | allow         |
 | Reply by emotion icon           | allow        | allow         |
-| Keep a message                  | none         | allow         |
+| Keep a bottle                  | none         | allow         |
 | Change location/See location    | none         | allow         |
 
 </code></pre>
