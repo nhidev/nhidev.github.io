@@ -28,7 +28,8 @@ HOW WIL IT LOOK LIKE?
 - Keep the bottle (it like you keep the bottle) (just upgrade user)
 ```
 
-<pre><code>| Plan    | Basic            | Upgrade                             |
+<pre><code>
+| Plan      | Basic               | Upgrade                      |
 |-----------|---------------------|------------------------------|
 | Drop a bottle                   | 10 times     | 50 times      |
 | Attach file                     | none         | allow         |
