@@ -23,7 +23,7 @@ Be ourself and be kind.
 - Write 
 - Upload your own (picture, audio, video)
 - Tag your bottle (optional choose, use to attack your information if you like, 
-actually you can write it in your bottle).
+actually you can write it in message).
 
 ### Random pick up a bottle: 
 - Reply by message
