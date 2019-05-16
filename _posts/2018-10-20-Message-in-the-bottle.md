@@ -1,11 +1,11 @@
-# Message in the bottle
 ---
 title: Message in the bottle
 image: /assets/img/message-in-a-bottle.jpg
 ---
+
 ```
 Tossing a message into the ocean and seeing to whom fate — abetted by the currents and wind.
-Think about happiness, hope of people drop/pick a bottle on the beach and how pure feeling of them.
+How pure of happiness, hope of people  who drop/pick up those bottles.
 ```
 
 HOW WIL IT LOOK LIKE?
@@ -19,7 +19,8 @@ HOW WIL IT LOOK LIKE?
 ### Dropping a bottle: 	     
 - Write 
 - Upload your own (picture, audio, video)
-- Tag your bottle (optional choose, use to attack your information if you like, actually you can write it in your bottle).
+- Tag your bottle (optional choose, use to attack your information if you like, 
+actually you can write it in your bottle).
 
 ### Random pick up a bottle: 
 - Reply by message
