@@ -33,8 +33,8 @@ actually you can write it in message).
 ```
 
 <pre><code>
-| Plan      | Basic               | Upgrade                      |
-|-----------|---------------------|------------------------------|
+| Plan                            | Basic        | Upgrade       |
+|---------------------------------|------------------------------|
 | Drop a bottle                   | 10 times     | 50 times      |
 | Attach file                     | none         | allow         |
 | Tag your bottle                 | none         | allow         |
