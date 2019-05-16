@@ -27,7 +27,7 @@ actually you can write it in your bottle).
 
 ### Random pick up a bottle: 
 - Reply by message
-- React by icon :fire: :heart: :smile: :cry:  
+- Reply by icon :fire: :heart: :smile: :cry:  
 - Leave it when you can't say any good word better just let it goes back to the sea.  
 - Keep the bottle 
 ```
